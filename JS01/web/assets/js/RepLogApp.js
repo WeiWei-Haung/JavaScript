@@ -1,8 +1,12 @@
+'use strict';
+
 (function (window, $) {
     window.RepLogApp = {
         initialize: function ($wrapper) {
             this.$wrapper = $wrapper;
-            helper.initialize($wrapper);
+            this.helper = new Helper(this.$wrapper);
+            Helper.initialize($wrapper);
+
             this.$wrapper.find('.js-delete-rep-log').on(
                 'click',
                 this.handleRepLogDelete.bind(this)
@@ -16,7 +20,7 @@
 
         updateTotalWeightLifted: function () {
             this.$wrapper.find('.js-total-weight').html(
-                helper._calculateTotalWeight()
+                this.helper._calculateTotalWeight()
             );
         },
 
@@ -53,17 +57,21 @@
         }
     };
 
-    var helper = {
-        initialize: function ($wrapper) {
+    var Helper = function ($wrapper) {
+        this.$wrapper = $wrapper;
+    };
+
+        Helper.initialize = function ($wrapper) {
             this.$wrapper = $wrapper;
-        },
-        _calculateTotalWeight: function () {
+        };
+
+        Helper.prototype._calculateTotalWeight = function () {
             var totalWeight = 0;
             this.$wrapper.find('tbody tr').each(function () {
                 totalWeight += $(this).data('weight');
             });
             return totalWeight;
-        }
+        };
 
-    };
+
 })(window, jQuery);
