@@ -5,7 +5,13 @@
         initialize: function ($wrapper) {
             this.$wrapper = $wrapper;
             this.helper = new Helper(this.$wrapper);
+            var helper2 = new Helper($('footer'));
             Helper.initialize($wrapper);
+
+            console.log(
+                this.helper._calculateTotalWeight(),
+                helper2._calculateTotalWeight()
+            );
 
             this.$wrapper.find('.js-delete-rep-log').on(
                 'click',
@@ -16,7 +22,11 @@
                 'click',
                 this.handleRowClick.bind(this)
             );
+
+          console.log()
         },
+
+
 
         updateTotalWeightLifted: function () {
             this.$wrapper.find('.js-total-weight').html(

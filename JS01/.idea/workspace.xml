@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/assets/js/RepLogApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+            <state relative-caret-position="405">
+              <caret line="74" column="25" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -267,7 +267,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hello_world" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -309,12 +309,12 @@
       <workItem from="1565082435512" duration="3209000" />
       <workItem from="1565158105691" duration="14493000" />
       <workItem from="1565313783376" duration="636000" />
-      <workItem from="1565572817756" duration="37775000" />
+      <workItem from="1565572817756" duration="43618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58263000" />
+    <option name="totallyTimeSpent" value="64106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -400,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/js/RepLogApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+        <state relative-caret-position="405">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="25" />
         </state>
       </provider>
     </entry>
